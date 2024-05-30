@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bootstrap-adaptive</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+<body>
+   <div class="container">
+      <div class="row mb-4">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fs-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".5" fill-rule="evenodd" clip-rule="evenodd" d="M48 6.667H16A9.333 9.333 0 006.667 16v32A9.333 9.333 0 0016 57.333h32A9.333 9.333 0 0057.333 48V16A9.333 9.333 0 0048 6.667zm-32-4C8.636 2.667 2.667 8.637 2.667 16v32c0 7.364 5.97 13.333 13.333 13.333h32c7.364 0 13.333-5.97 13.333-13.333V16c0-7.364-5.97-13.333-13.333-13.333H16z" fill="#fff"></path><path d="M31.292 46.348c1.31-.911 2.542-1.586 3.535-2.125 1.589-.866 2.954-1.616 3.97-2.839 4.987-5.996 3.718-15.207 3.663-15.596l-.14-.951-.403.853c-.02.046-2.27 4.753-6.21 8.02-.447.367-.997.78-1.645 1.263-1.186.889-2.667 1.992-4.45 3.543-5.858 5.105-5.926 13.552-5.926 13.909v.908l.517-.707c.006-.013 2.015-2.739 7.09-6.278zM30.05 29.264c2.687-1.872 4.594-3.33 5.833-4.812 3.884-4.672 2.848-10.847 2.798-11.106l-.158-.902-.382.811c-.012.03-1.718 3.628-4.767 6.152-.328.272-.725.57-1.19.918-.94.704-2.126 1.59-3.502 2.787-4.536 3.949-4.591 10.493-4.591 10.769v.911l.517-.71c.008-.013 1.503-2.07 5.442-4.818z" fill="#4ED401"></path></svg>
+              </a>           
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Про нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Контакти</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Курси
+                    </a>
+                    <ul class="dropdown-menu fs-5" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Front-end</a></li>
+                      <li><a class="dropdown-item" href="#">FullStack</a></li>
+                      <li><a class="dropdown-item" href="#">Pyton</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+      <div class="row mb-4">
+        <!--Left-->
+        <div class="col-12 col-lg-3 mb-4">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/_aI_K00I_400x400.jpg" class="d-block w-100" alt="hillel-school">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/400x400f.jpg" class="d-block w-100" alt="Front-end">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/fs400x400.jpg" class="d-block w-100" alt="FullStack">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/PythonLogo.png" class="d-block w-100" alt="Pyton">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Main-->
+         <div class="col-12 col-lg-6 mb-4">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed bg-success text-white fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Курс Front-end
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse border border-success border-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                  <p>Розробка видимої частини будь-якого сайту називається Front-end, і це область програмування, яка розвивається швидше за інші. Жоден сучасний веб-сайт і веб-додаток не обійдуться без Front-end розробника.</p>
+                  <p>В рамках курсу Front-end Basic студенти без досвіду в розробці вивчають HTML і CSS та вчаться верстати сайти. Після успішного закінчення курсу студенти отримують достатньо знань і навичок для верстки сайту будь-якої складності.</p>
+                  <p class="text-success">ЦІЛІ КУРСУ</p>
+                  <ul>
+                    <li>Втілювати в верстку дизайн будь-якої складності</li>
+                    <li>Робити сайти, які однаково добре відображаються на будь-якому пристрої</li>
+                    <li> Помічати важливі дрібниці і писати код, який легко розширювати і підтримувати</li>
+                    <li> Навчитися розуміти структуру веб-сторінок</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed bg-info text-white fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Курс FullStack
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse border border-info border-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                  <p>На курсі Full-Stack ти зможеш швидко засвоїти навички розробки мовою JavaScript з обох боків — клієнтського та серверного (Front-end і Back-end).</p>
+                  <p>Докладні уроки та практичні проєкти дадуть змогу дізнатися, що таке Node.js, Express і React, як їх застосовувати, як створювати повноцінні вебзастосунки з нуля і розробляти RESTful API.</p>
+                  <p>Ти навчишся розбиратися в базах баз даних MongoDB і отримаєш усі необхідні навички для розв'язання складних завдань програмування і розробки вебпроєктів.</p>
+                  <p class="text-success">ЦІЛІ КУРСУ</p>
+                  <ul>
+                    <li>Навчитися розробляти повноцінні веб-додатки на JavaScript з нуля</li>
+                    <li>Розібратися в основах серверної і клієнтської розробок на Node.js, Express і React</li>
+                    <li>Ознайомитися з основними інструментами і бібліотеками, які використовують Full-Stack розробники</li>
+                    <li>Навчитися створювати та використовувати RESTful API для побудови веб-додатків</li>
+                    <li>Навчитися роботі з базами даних на прикладі MongoDB і вирішенню задач з їх допомогою</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed bg-warning text-white fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 Курс Pyton
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse border border-warning border-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                  <p>Курс призначений для тих, хто тільки починає свій шлях в IT-індустрії і не має уявлення про основи програмування і в якій спеціальності розвиватися.</p>
+                  <p>Протягом двох місяців ви дізнаєтеся основи мови Python, яка є однією з найпростіших і гнучких мов програмування, а також які є змінні, типи даних і багато іншого.</p>
+                  <p class="text-success">ЦІЛІ КУРСУ</p>
+                  <ul>
+                    <li>Навчитися писати прості програми на мові Python</li>
+                    <li>Познайомитися з основами ООП</li>
+                    <li>Вивчити основні алгоритми</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <!--Right-->
+         <div class="col-12 col-lg-3 mb-4">
+          <form class="border border-success border-3 p-2">
+            <label class="fs-5 mb-2 text-center col-12">Замовити курс</label>
+            <div class="form-group row mb-2"> 
+              <label for="name" class="col-sm-3 col-form-label">Ім'я</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="name" placeholder="Ім'я" aria-label="Ім'я">
+              </div>
+            </div>
+
+            <div class="form-group row mb-2"> 
+              <label for="name2" class="col-sm-3 col-form-label">Фамілія</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="name2" placeholder="Фамілія" aria-label="Фамілія">
+              </div>
+            </div>
+
+            <div class="form-group row mb-2">
+              <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+              <div class="col-sm-9">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="form-group row mb-2">
+              <label for="phone" class="col-sm-3 col-form-label">Телефон</label>
+              <div class="col-sm-9">
+                <input type="tel" class="form-control" id="phone" placeholder="Телефон">
+              </div>
+            </div>
+
+            <fieldset class="form-group">
+              <div class="row mb-2">
+                <label class="col-form-label col-sm-3 pt-0">Вибрати курс</label>
+                <div class="col-sm-9">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Front-end
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Full-Stack
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Python
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            
+            <div class="form-group row text-center">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Замовити</button>
+              </div>
+            </div>
+          </form>
+         </div>
+      </div>
+
+      <div class="row mb-4">
+         <div class="col bg-dark text-center text-white p-3 fs-6">
+            <p>Єлькін Олександр <br> м. Одеса</p>
+          </div>
+      </div>
+   </div>   
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
